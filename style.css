@@ -1,0 +1,107 @@
+   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+   body {
+       font-family: "Montserrat", sans-serif;
+   }
+
+   .logo {
+       font-family: "Dancing Script", cursive;
+       color: #f49c5a;
+   }
+
+   .navbar {
+       display: flex;
+       justify-content: space-between;
+       background-color: black;
+       opacity: 50%;
+       color: white;
+       align-items: center;
+       padding-left: 8%;
+       padding-right: 8%;
+   }
+
+   .nav-links a {
+       color: white;
+       text-decoration: none;
+       padding: 5px;
+   }
+
+   .hero {
+       display: flex;
+       justify-content: space-between;
+       padding-left: 8%;
+       padding-right: 8%;
+       align-items: center;
+       background-image: url(img/img/home-bg.jpg);
+   }
+
+   .hero-content {
+       position: relative;
+   }
+
+   .hero-content img {
+       width: 100px;
+       position: absolute;
+       top: 240px;
+       left: 200px;
+   }
+
+   .hero-content h1 {
+       font-family: "Dancing Script", cursive;
+       font-size: 4rem;
+       color: white;
+   }
+
+   .hero-content button {
+       background-color: #f49c5a;
+       padding: 10px;
+       border: none;
+       border-radius: 5px;
+   }
+
+   .hero-img img {
+       width: 600px;
+   }
+
+   .about {
+       display: flex;
+       justify-content: space-between;
+       height: 100vh;
+       background-color: black;
+   }
+
+   .about-image {
+       padding-top: 120px;
+       padding-left: 200px;
+   }
+
+   .about-image img {
+       width: 600px;
+   }
+
+   .about-content {
+       color: white;
+       width: 500px;
+       position: relative;
+       padding-top: 300px;
+       padding-right: 20%;
+       padding-left: 10%;
+   }
+
+   .about-content h1 {
+       font-family: "Dancing Script", cursive;
+       color: #f49c5a;
+   }
+
+   .about-content button {
+       background-color: #f49c5a;
+       padding: 10px;
+       border: none;
+       border-radius: 5px;
+   }
+
+   .about-content img {
+       width: 100px;
+       position: absolute;
+       left: 600px;
+   }
