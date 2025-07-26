@@ -105,3 +105,34 @@
        position: absolute;
        left: 600px;
    }
+
+   @media only screen and (max-width: 600px) {
+       .nav-links {
+           display: none;
+       }
+
+       .hero {
+           flex-direction: column;
+       }
+
+       .hero-content h1 {
+           font-size: 35px;
+       }
+
+       .hero-content button {
+           position: absolute;
+           left: 50px;
+       }
+
+       .hero-content img {
+           width: 50px;
+           position: absolute;
+           top: 240px;
+           left: 10px;
+       }
+
+       .hero-img img {
+           width: 300px;
+           margin-top: 60px;
+       }
+   }
